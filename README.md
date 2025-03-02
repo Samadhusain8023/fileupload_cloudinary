@@ -1,7 +1,7 @@
 # File Upload and Optimization with Express and Cloudinary
 This project provides an efficient file upload system using Express.js. It allows users to upload files to a local server, while images and videos are uploaded to Cloudinary. Additionally, images are optimized (compressed) before being uploaded to Cloudinary, ensuring better performance and reduced storage costs.
 
-#Features
+Features
 📂 Upload Files to Local Server: Supports general file uploads (e.g., PDFs, text files, etc.).
 
 🖼️ Upload Images to Cloudinary: Automatically compresses images before uploading.
@@ -15,9 +15,13 @@ This project provides an efficient file upload system using Express.js. It allow
 🔒 Error Handling & Validations: Ensures only supported file formats are uploaded.
 
 
-#Tech Stack
+Tech Stack
 Backend: Node.js, Express.js
+
 Cloud Storage: Cloudinary
+
 Image Compression: Sharp
+
 File Handling: Multer
+
 Environment Variables: dotenv
